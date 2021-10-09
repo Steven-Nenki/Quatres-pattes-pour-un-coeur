@@ -15,6 +15,7 @@ nav {
 .card-ou_somme_nous .title {
   text-shadow: 2px 2px 4px black;
   margin-top: 10px;
+  font-weight: 400;
 }
 
 .card-event-present-h2 {
