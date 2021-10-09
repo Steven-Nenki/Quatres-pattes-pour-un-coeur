@@ -2,11 +2,11 @@ nav{
   background-color: rgba(225, 228, 231, 0.329);
 }
 
-.card-1{
+.card-present-miaouu{
   box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 }
 
-.card-2{
+.card-ou_somme_nous{
   box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 
   .title{    
@@ -14,3 +14,21 @@ nav{
     margin-top: 10px;
   }
 }
+
+.card-event-present-h2{
+  text-shadow: 1px 1px 2px rgb(104, 104, 104);
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.card-event-present{
+   box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801); 
+
+   a{
+     color: white;
+     text-decoration: none;
+     font-style: italic;
+   }
+}
+

@@ -2,18 +2,36 @@ nav {
   background-color: rgba(225, 228, 231, 0.329);
 }
 
-.card-1 {
+.card-present-miaouu {
   -webkit-box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
           box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 }
 
-.card-2 {
+.card-ou_somme_nous {
   -webkit-box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
           box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 }
 
-.card-2 .title {
+.card-ou_somme_nous .title {
   text-shadow: 2px 2px 4px black;
   margin-top: 10px;
+}
+
+.card-event-present-h2 {
+  text-shadow: 1px 1px 2px #686868;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.card-event-present {
+  -webkit-box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
+          box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
+}
+
+.card-event-present a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
