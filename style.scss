@@ -1,3 +1,16 @@
-.refe{
-  width: 100%;
+nav{
+  background-color: rgba(225, 228, 231, 0.329);
+}
+
+.card-1{
+  box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
+}
+
+.card-2{
+  box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
+
+  .title{    
+    text-shadow: 2px 2px 4px black;
+    margin-top: 10px;
+  }
 }
