@@ -1,3 +1,9 @@
+@media screen and (max-width: 720px) {
+  .chevron {
+    display: none;
+  }
+}
+
 nav {
   background-color: rgba(225, 228, 231, 0.329);
 }
@@ -38,7 +44,20 @@ nav {
 
 .chevron {
   position: fixed;
-  left: 15px;
+  left: 30px;
   bottom: 150px;
+}
+
+.cat-separate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-style: oblique;
 }
 /*# sourceMappingURL=style.css.map */
