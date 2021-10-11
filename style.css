@@ -18,21 +18,21 @@ nav {
   font-weight: 400;
 }
 
-.card-event-present-h2 {
-  text-shadow: 1px 1px 2px #686868;
-  margin-top: 10px;
-  font-style: italic;
-  font-weight: 100;
-}
-
-.card-event-present {
+.card-event-present, .lieu {
   -webkit-box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
           box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 }
 
-.card-event-present a {
+.card-event-present a, .lieu a {
   color: white;
   text-decoration: none;
   font-style: italic;
+}
+
+.card-event-present h2, .lieu h2 {
+  text-shadow: 1px 1px 2px #686868;
+  margin-top: 10px;
+  font-style: italic;
+  font-weight: 100;
 }
 /*# sourceMappingURL=style.css.map */

@@ -16,14 +16,7 @@ nav{
   }
 }
 
-.card-event-present-h2{
-  text-shadow: 1px 1px 2px rgb(104, 104, 104);
-  margin-top: 10px;
-  font-style: italic;
-  font-weight: 100;
-}
-
-.card-event-present{
+.card-event-present, .lieu{
    box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801); 
 
    a{
@@ -31,5 +24,11 @@ nav{
      text-decoration: none;
      font-style: italic;
    }
-}
 
+   h2{
+    text-shadow: 1px 1px 2px rgb(104, 104, 104);
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 100;
+  }
+}
