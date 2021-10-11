@@ -1,7 +1,37 @@
-@media screen and (max-width: 720px) {
-  .chevron {
+@media screen and (max-width: 768px) {
+  .chevron-t-l, .chevron-t-r, .chevron-b-l, .chevron-b-r {
     display: none;
   }
+}
+
+@media screen and (max-width: 576px) {
+  .years {
+    display: none;
+  }
+}
+
+.chevron-t-l {
+  position: fixed;
+  left: 30px;
+  bottom: 50%;
+}
+
+.chevron-t-r {
+  position: fixed;
+  right: 30px;
+  bottom: 50%;
+}
+
+.chevron-b-r {
+  position: fixed;
+  right: 30px;
+  bottom: 45%;
+}
+
+.chevron-b-l {
+  position: fixed;
+  left: 30px;
+  bottom: 45%;
 }
 
 nav {
@@ -40,12 +70,6 @@ nav {
   margin-top: 10px;
   font-style: italic;
   font-weight: 100;
-}
-
-.chevron {
-  position: fixed;
-  left: 30px;
-  bottom: 150px;
 }
 
 .cat-separate {
