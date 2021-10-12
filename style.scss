@@ -81,3 +81,19 @@ h1{
 }
 
 
+// logo contact
+.logo{
+  
+  &:hover{
+    transform: scale(1.1);
+  }
+
+  &:focus{
+    animation: 1s ease 0s 1 running logo-réseaux;
+  }
+}
+
+@keyframes logo-réseaux {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);} 
+  }

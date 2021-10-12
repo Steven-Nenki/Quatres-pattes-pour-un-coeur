@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 768px) {
   .chevron-t-l, .chevron-t-r, .chevron-b-l, .chevron-b-r {
     display: none;
@@ -74,5 +75,37 @@ nav {
 h1 {
   font-style: oblique;
   margin-bottom: 20px;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.logo:focus {
+  -webkit-animation: 1s ease 0s 1 running logo-réseaux;
+          animation: 1s ease 0s 1 running logo-réseaux;
+}
+
+@-webkit-keyframes logo-réseaux {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes logo-réseaux {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */
