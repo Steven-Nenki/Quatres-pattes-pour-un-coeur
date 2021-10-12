@@ -10,6 +10,7 @@
   }
 }
 
+// chevron
 .chevron-t-l{
   position: fixed;
   left: 30px;
@@ -34,15 +35,15 @@
   bottom: 45%;
 }
 
+
+// navigation
 nav{
   background-color: rgba(225, 228, 231, 0.329);
 }
 
-.card-present-miaouu{
-  box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
-}
 
-.card-ou_somme_nous{
+// Ombrage
+.card-shadow{
   box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801);
 
   .title{    
@@ -50,33 +51,33 @@ nav{
     margin-top: 10px;
     font-weight: 400;
   }
-}
 
-.card-event-present, .lieu{
-   box-shadow: 7px 7px 12px rgba(53, 53, 53, 0.801); 
-
-   a{
-     color: white;
-     text-decoration: none;
-     font-style: italic;
-   }
-
-   h2{
-    text-shadow: 1px 1px 2px rgb(104, 104, 104);
-    margin-top: 10px;
+  a{
+    color: white;
+    text-decoration: none;
     font-style: italic;
-    font-weight: 100;
   }
+
+  h2{
+   text-shadow: 1px 1px 2px rgb(104, 104, 104);
+   margin-top: 10px;
+   font-style: italic;
+   font-weight: 100;
+ }
 }
 
 
+// Chat de séparation
 .cat-separate{
   display: flex;
   justify-content: center;
 }
 
+
+// Titre
 h1{
   font-style: oblique;
+  margin-bottom: 20px;
 }
 
 
