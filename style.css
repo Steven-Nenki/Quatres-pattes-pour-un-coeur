@@ -50,12 +50,6 @@ nav {
   font-weight: 400;
 }
 
-.card-shadow a {
-  color: white;
-  text-decoration: none;
-  font-style: italic;
-}
-
 .card-shadow h2 {
   text-shadow: 1px 1px 2px #686868;
   margin-top: 10px;
@@ -72,9 +66,18 @@ nav {
           justify-content: center;
 }
 
+h2.title {
+  font-style: oblique;
+  font-size: 2.3em;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
 h1 {
   font-style: oblique;
+  font-size: 3em;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 .logo:hover {
@@ -107,5 +110,15 @@ h1 {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+}
+
+button a:hover {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
