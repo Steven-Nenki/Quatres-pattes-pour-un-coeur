@@ -9,15 +9,6 @@
   .years {
     display: none;
   }
-  .footer-pc {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 577px) {
-  .footer-tel {
-    display: none;
-  }
 }
 
 .chevron-t-l {
