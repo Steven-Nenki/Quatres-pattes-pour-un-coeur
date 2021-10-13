@@ -121,4 +121,8 @@ button a {
 button a:hover {
   color: black;
 }
+
+strong {
+  font-weight: normal;
+}
 /*# sourceMappingURL=style.css.map */
