@@ -11,8 +11,8 @@
 }
 
 $cote: 30px;
-$chevron-top: 50px;
-$chevron-botton: 45px;
+$chevron-top: 50%;
+$chevron-botton: 45%;
 
 @mixin titles ($Size){
   font-style: oblique;
