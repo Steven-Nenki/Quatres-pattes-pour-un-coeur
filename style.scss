@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
 @media screen and (max-width: 991px){
   .chevron-t-l, .chevron-t-r, .chevron-b-l, .chevron-b-r{
     display: none;
@@ -122,4 +124,9 @@ button a{
 
 strong{
   font-weight: normal;
+}
+
+p{
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 1.2em;
 }
